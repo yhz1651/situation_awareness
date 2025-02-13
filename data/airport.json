@@ -1,0 +1,36 @@
+[{"time": "2019-05-23 15:29:18", "entities": 
+[{"category": "Vehicles", "name": "Entity0", "enemy": false, "location": {"longitude": 120.245722, "latitude": 29.123908, "altitude": 110.6}, 
+"policy": "near_friend", "temperature": 24.1, "environment": "airport", "previous_location": null}]}, 
+{"time": "2019-05-23 16:09:43", "entities": 
+[{"category": "Vehicles", "name": "Entity0", "enemy": false, "location": {"longitude": 120.245722, "latitude": 29.123908, "altitude": 110.6}, 
+"policy": "near_friend", "temperature": 24.3, "environment": "airport", "previous_location": {"longitude": 120.245722, "latitude": 29.123908, "altitude": 110.6}}, 
+{"category": "Airplane", "name": "Entity1", "enemy": false, "location": {"longitude": 120.245711, "latitude": 29.123856, "altitude": 110.6}, 
+"policy": "near_friend", "temperature": 37.7, "environment": "airport", "previous_location": null}]}, 
+{"time": "2019-05-23 16:21:36", "entities": 
+[{"category": "Vehicles", "name": "Entity0", "enemy": false, "location": {"longitude": 120.245722, "latitude": 29.123908, "altitude": 110.6}, 
+"policy": "near_friend", "temperature": 24.1, "environment": "airport", "previous_location": {"longitude": 120.245722, "latitude": 29.123908, "altitude": 110.6}}, 
+{"category": "Airplane", "name": "Entity1", "enemy": false, "location": {"longitude": 120.245711, "latitude": 29.123856, "altitude": 110.6}, 
+"policy": "near_friend", "temperature": 34.6, "environment": "airport", "previous_location": {"longitude": 120.245711, "latitude": 29.123856, "altitude": 110.6}}, 
+{"category": "Airplane", "name": "Entity2", "enemy": false, "location": {"longitude": 120.245711, "latitude": 29.123958, "altitude": 110.6}, 
+"policy": "near_friend", "temperature": 42.0, "environment": "airport", "previous_location": null}]}, 
+{"time": "2019-05-23 16:45:14", "entities": 
+[{"category": "Vehicles", "name": "Entity0", "enemy": false, "location": {"longitude": 120.245722, "latitude": 29.123908, "altitude": 110.6}, 
+"policy": "near_friend", "temperature": 24.0, "environment": "airport", "previous_location": {"longitude": 120.245722, "latitude": 29.123908, "altitude": 110.6}}, 
+{"category": "Airplane", "name": "Entity1", "enemy": false, "location": {"longitude": 120.245711, "latitude": 29.123856, "altitude": 110.6}, 
+"policy": "near_friend", "temperature": 27.6, "environment": "airport", "previous_location": {"longitude": 120.245711, "latitude": 29.123856, "altitude": 110.6}}, 
+{"category": "Airplane", "name": "Entity2", "enemy": false, "location": {"longitude": 120.245711, "latitude": 29.123958, "altitude": 110.6}, 
+"policy": "near_friend", "temperature": 32.2, "environment": "airport", "previous_location": {"longitude": 120.245711, "latitude": 29.123958, "altitude": 110.6}}, 
+{"category": "Airplane", "name": "Entity3", "enemy": false, "location": {"longitude": 120.245711, "latitude": 29.124060, "altitude": 110.6}, 
+"policy": "near_friend", "temperature": 42.3, "environment": "airport", "previous_location": null}]},
+{"time": "2019-05-23 17:04:48", "entities": 
+[{"category": "Vehicles", "name": "Entity0", "enemy": false, "location": {"longitude": 120.245722, "latitude": 29.123908, "altitude": 110.6}, 
+"policy": "near_friend", "temperature": 24.0, "environment": "airport", "previous_location": {"longitude": 120.245722, "latitude": 29.123908, "altitude": 110.6}}, 
+{"category": "Airplane", "name": "Entity1", "enemy": false, "location": {"longitude": 120.245711, "latitude": 29.123856, "altitude": 110.6}, 
+"policy": "near_friend", "temperature": 25.1, "environment": "airport", "previous_location": {"longitude": 120.245711, "latitude": 29.123856, "altitude": 110.6}}, 
+{"category": "Airplane", "name": "Entity2", "enemy": false, "location": {"longitude": 120.245711, "latitude": 29.123958, "altitude": 110.6}, 
+"policy": "near_friend", "temperature": 27.8, "environment": "airport", "previous_location": {"longitude": 120.245711, "latitude": 29.123958, "altitude": 110.6}}, 
+{"category": "Airplane", "name": "Entity3", "enemy": false, "location": {"longitude": 120.245711, "latitude": 29.124060, "altitude": 110.6}, 
+"policy": "near_friend", "temperature": 34.8, "environment": "airport", "previous_location": {"longitude": 120.245711, "latitude": 29.124060, "altitude": 110.6}},
+{"category": "Airplane", "name": "Entity4", "enemy": false, "location": {"longitude": 120.245711, "latitude": 29.124162, "altitude": 110.6}, 
+"policy": "near_friend", "temperature": 44.1, "environment": "airport", "previous_location": null}]}
+]

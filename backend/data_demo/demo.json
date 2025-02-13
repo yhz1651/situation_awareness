@@ -1,0 +1,167 @@
+[
+    {
+      "time": "2023-06-13 04:32:53",
+      "entities": [
+        {
+          "category": "Tank",
+          "name": "Entity0",
+          "enemy": false,
+          "location": {
+            "longitude": 19.221044413336163,
+            "latitude": 1.614103982854731,
+            "altitude": 105.80197558410794
+          }
+        },
+        {
+          "category": "Soldier",
+          "name": "Entity1",
+          "enemy": false,
+          "location": {
+            "longitude": 16.381778358128575,
+            "latitude": 23.54294076648188,
+            "altitude": 138.32702359396316
+          }
+        },
+        {
+          "category": "Helicopter",
+          "name": "Entity2",
+          "enemy": false,
+          "location": {
+            "longitude": 9.808599042082866,
+            "latitude": 40.13957945161772,
+            "altitude": 165.12353137474875
+          }
+        },
+        {
+          "category": "Helicopter",
+          "name": "Entity3",
+          "enemy": true,
+          "location": {
+            "longitude": 92.11706846755693,
+            "latitude": 89.60145313727837,
+            "altitude": 185.33895080957032
+          }
+        },
+        {
+          "category": "Helicopter",
+          "name": "Entity4",
+          "enemy": false,
+          "location": {
+            "longitude": 26.834910618752193,
+            "latitude": 99.88790476169268,
+            "altitude": 160.29619193544255
+          }
+        }
+      ]
+    },
+    {
+      "time": "2023-08-10 03:55:53",
+      "entities": [
+        {
+          "category": "Helicopter",
+          "name": "Entity0",
+          "enemy": false,
+          "location": {
+            "longitude": 68.12152646506216,
+            "latitude": 90.52526065872787,
+            "altitude": 5.387725991890746
+          }
+        },
+        {
+          "category": "Soldier",
+          "name": "Entity1",
+          "enemy": true,
+          "location": {
+            "longitude": 12.10507960392555,
+            "latitude": 58.73512069768048,
+            "altitude": 54.38556275114177
+          }
+        },
+        {
+          "category": "Soldier",
+          "name": "Entity2",
+          "enemy": true,
+          "location": {
+            "longitude": 69.7267159510338,
+            "latitude": 38.30692946348708,
+            "altitude": 136.80076606892476
+          }
+        },
+        {
+          "category": "Tank",
+          "name": "Entity3",
+          "enemy": false,
+          "location": {
+            "longitude": 36.86011245482299,
+            "latitude": 83.81937864600482,
+            "altitude": 132.0797062123499
+          }
+        },
+        {
+          "category": "Soldier",
+          "name": "Entity4",
+          "enemy": false,
+          "location": {
+            "longitude": 22.16813536508855,
+            "latitude": 8.94510591990121,
+            "altitude": 0.7262582345628488
+          }
+        }
+      ]
+    },
+    {
+      "time": "2023-12-13 06:40:53",
+      "entities": [
+        {
+          "category": "Soldier",
+          "name": "Entity0",
+          "enemy": false,
+          "location": {
+            "longitude": 26.22578137279028,
+            "latitude": 27.56758431143006,
+            "altitude": 166.03437637641954
+          }
+        },
+        {
+          "category": "Helicopter",
+          "name": "Entity1",
+          "enemy": false,
+          "location": {
+            "longitude": 66.16802951730757,
+            "latitude": 54.803025006333705,
+            "altitude": 10.329280313971466
+          }
+        },
+        {
+          "category": "Helicopter",
+          "name": "Entity2",
+          "enemy": false,
+          "location": {
+            "longitude": 38.2690392946896,
+            "latitude": 90.64081639840644,
+            "altitude": 132.22141891338288
+          }
+        },
+        {
+          "category": "Soldier",
+          "name": "Entity3",
+          "enemy": false,
+          "location": {
+            "longitude": 97.95893528148763,
+            "latitude": 72.05432302570051,
+            "altitude": 41.69370660567129
+          }
+        },
+        {
+          "category": "Helicopter",
+          "name": "Entity4",
+          "enemy": true,
+          "location": {
+            "longitude": 4.859657931792471,
+            "latitude": 45.47012840063084,
+            "altitude": 65.00787542491099
+          }
+        }
+      ]
+    }
+  ]

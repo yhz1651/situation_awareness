@@ -1,0 +1,887 @@
+[
+    {
+        "time": "2023-11-20 02:29:29",
+        "entities": [
+            {
+                "category": "InfantryFightingVehicle",
+                "name": "Entity0",
+                "enemy": true,
+                "location": {
+                    "longitude": 120.319309872196,
+                    "latitude": 29.100304091716435,
+                    "altitude": 142.3265848907207
+                },
+                "policy": "near_enemy",
+                "temperature": 52.82982737832637,
+                "environment": "land",
+                "previous_location": null
+            },
+            {
+                "category": "Vehicles",
+                "name": "Entity1",
+                "enemy": true,
+                "location": {
+                    "longitude": 120.33551454107324,
+                    "latitude": 29.100357005888792,
+                    "altitude": 238.24423424982538
+                },
+                "policy": "near_enemy",
+                "temperature": 77.95210731186326,
+                "environment": "land",
+                "previous_location": null
+            },
+            {
+                "category": "UAV",
+                "name": "Entity2",
+                "enemy": true,
+                "location": {
+                    "longitude": 120.31691626061975,
+                    "latitude": 29.10007071528701,
+                    "altitude": 397.0852343129514
+                },
+                "policy": "near_enemy",
+                "temperature": 74.85326915221914,
+                "environment": "air",
+                "previous_location": null
+            },
+            {
+                "category": "CamouflageNet",
+                "name": "Entity3",
+                "enemy": false,
+                "location": {
+                    "longitude": 120.24332762517487,
+                    "latitude": 29.096989499727215,
+                    "altitude": 346.76057732657
+                },
+                "policy": "far_from_friend",
+                "temperature": 0.7000473861518053,
+                "environment": "land",
+                "previous_location": null
+            },
+            {
+                "category": "InfantryFightingVehicle",
+                "name": "Entity4",
+                "enemy": false,
+                "location": {
+                    "longitude": 120.27413217854965,
+                    "latitude": 29.09809599067985,
+                    "altitude": 157.7082822805164
+                },
+                "policy": "near_friend",
+                "temperature": 78.61265149013312,
+                "environment": "land",
+                "previous_location": null
+            },
+            {
+                "category": "MissileVehicle",
+                "name": "Entity5",
+                "enemy": false,
+                "location": {
+                    "longitude": 120.28763440803573,
+                    "latitude": 29.096932132957924,
+                    "altitude": 294.92139623506154
+                },
+                "policy": "near_enemy",
+                "temperature": 45.86375816188047,
+                "environment": "land",
+                "previous_location": null
+            },
+            {
+                "category": "UAV",
+                "name": "Entity6",
+                "enemy": false,
+                "location": {
+                    "longitude": 120.26020396588596,
+                    "latitude": 29.097461682696835,
+                    "altitude": 9.396566583271593
+                },
+                "policy": "far_from_friend",
+                "temperature": 109.92446926766263,
+                "environment": "air",
+                "previous_location": null
+            },
+            {
+                "category": "MissileVehicle",
+                "name": "Entity7",
+                "enemy": false,
+                "location": {
+                    "longitude": 120.22727212302972,
+                    "latitude": 29.096131922952974,
+                    "altitude": 163.36160530213883
+                },
+                "policy": "near_enemy",
+                "temperature": 32.1964017823425,
+                "environment": "land",
+                "previous_location": null
+            },
+            {
+                "category": "Tank",
+                "name": "Entity8",
+                "enemy": false,
+                "location": {
+                    "longitude": 120.26332674852064,
+                    "latitude": 29.096193359168737,
+                    "altitude": 378.71531814717844
+                },
+                "policy": "far_from_enemy",
+                "temperature": 117.62989781179665,
+                "environment": "land",
+                "previous_location": null
+            },
+            {
+                "category": "MissileVehicle",
+                "name": "Entity9",
+                "enemy": false,
+                "location": {
+                    "longitude": 120.23177014643167,
+                    "latitude": 29.096060095579233,
+                    "altitude": 186.3734685020086
+                },
+                "policy": "near_enemy",
+                "temperature": 6.460551207078069,
+                "environment": "land",
+                "previous_location": null
+            }
+        ]
+    },
+    {
+        "time": "2023-11-21 02:29:29",
+        "entities": [
+            {
+                "category": "InfantryFightingVehicle",
+                "name": "Entity0",
+                "enemy": true,
+                "location": {
+                    "longitude": 120.32807957908052,
+                    "latitude": 29.100169390045778,
+                    "altitude": 135.57401684164478
+                },
+                "policy": "near_enemy",
+                "temperature": 51.19090809947519,
+                "environment": "land",
+                "previous_location": {
+                    "longitude": 120.319309872196,
+                    "latitude": 29.100304091716435,
+                    "altitude": 142.3265848907207
+                }
+            },
+            {
+                "category": "Vehicles",
+                "name": "Entity1",
+                "enemy": true,
+                "location": {
+                    "longitude": 120.3393472604981,
+                    "latitude": 29.101074127640775,
+                    "altitude": 234.17340088811008
+                },
+                "policy": "near_enemy",
+                "temperature": 77.63431983112275,
+                "environment": "land",
+                "previous_location": {
+                    "longitude": 120.33551454107324,
+                    "latitude": 29.100357005888792,
+                    "altitude": 238.24423424982538
+                }
+            },
+            {
+                "category": "UAV",
+                "name": "Entity2",
+                "enemy": true,
+                "location": {
+                    "longitude": 120.31364147388464,
+                    "latitude": 29.099463053470615,
+                    "altitude": 390.3606507187873
+                },
+                "policy": "near_enemy",
+                "temperature": 23.560765530455484,
+                "environment": "air",
+                "previous_location": {
+                    "longitude": 120.31691626061975,
+                    "latitude": 29.10007071528701,
+                    "altitude": 397.0852343129514
+                }
+            },
+            {
+                "category": "CamouflageNet",
+                "name": "Entity3",
+                "enemy": false,
+                "location": {
+                    "longitude": 120.24332762517487,
+                    "latitude": 29.096989499727215,
+                    "altitude": 346.76057732657
+                },
+                "policy": "far_from_friend",
+                "temperature": 34.571580659887346,
+                "environment": "land",
+                "previous_location": {
+                    "longitude": 120.24332762517487,
+                    "latitude": 29.096989499727215,
+                    "altitude": 346.76057732657
+                }
+            },
+            {
+                "category": "InfantryFightingVehicle",
+                "name": "Entity4",
+                "enemy": false,
+                "location": {
+                    "longitude": 120.28279162846145,
+                    "latitude": 29.09853608208606,
+                    "altitude": 167.48463823039603
+                },
+                "policy": "near_friend",
+                "temperature": 46.890294339659945,
+                "environment": "land",
+                "previous_location": {
+                    "longitude": 120.27413217854965,
+                    "latitude": 29.09809599067985,
+                    "altitude": 157.7082822805164
+                }
+            },
+            {
+                "category": "MissileVehicle",
+                "name": "Entity5",
+                "enemy": false,
+                "location": {
+                    "longitude": 120.28870284214489,
+                    "latitude": 29.096857974259187,
+                    "altitude": 290.7033355588267
+                },
+                "policy": "near_enemy",
+                "temperature": 118.20817094497025,
+                "environment": "land",
+                "previous_location": {
+                    "longitude": 120.28763440803573,
+                    "latitude": 29.096932132957924,
+                    "altitude": 294.92139623506154
+                }
+            },
+            {
+                "category": "UAV",
+                "name": "Entity6",
+                "enemy": false,
+                "location": {
+                    "longitude": 120.25889617919997,
+                    "latitude": 29.096857823328733,
+                    "altitude": 8.805153033746292
+                },
+                "policy": "far_from_friend",
+                "temperature": 72.34401962182179,
+                "environment": "air",
+                "previous_location": {
+                    "longitude": 120.26020396588596,
+                    "latitude": 29.097461682696835,
+                    "altitude": 9.396566583271593
+                }
+            },
+            {
+                "category": "MissileVehicle",
+                "name": "Entity7",
+                "enemy": false,
+                "location": {
+                    "longitude": 120.22839070499842,
+                    "latitude": 29.097095280159365,
+                    "altitude": 157.38825319263506
+                },
+                "policy": "near_enemy",
+                "temperature": 13.90400949815084,
+                "environment": "land",
+                "previous_location": {
+                    "longitude": 120.22727212302972,
+                    "latitude": 29.096131922952974,
+                    "altitude": 163.36160530213883
+                }
+            },
+            {
+                "category": "Tank",
+                "name": "Entity8",
+                "enemy": false,
+                "location": {
+                    "longitude": 120.26961783763461,
+                    "latitude": 29.096936001757037,
+                    "altitude": 383.55212735360834
+                },
+                "policy": "far_from_enemy",
+                "temperature": 14.639089267085875,
+                "environment": "land",
+                "previous_location": {
+                    "longitude": 120.26332674852064,
+                    "latitude": 29.096193359168737,
+                    "altitude": 378.71531814717844
+                }
+            },
+            {
+                "category": "MissileVehicle",
+                "name": "Entity9",
+                "enemy": false,
+                "location": {
+                    "longitude": 120.22679384275403,
+                    "latitude": 29.095787003722243,
+                    "altitude": 187.05753138154168
+                },
+                "policy": "near_enemy",
+                "temperature": 18.691787094353426,
+                "environment": "land",
+                "previous_location": {
+                    "longitude": 120.23177014643167,
+                    "latitude": 29.096060095579233,
+                    "altitude": 186.3734685020086
+                }
+            }
+        ]
+    },
+    {
+        "time": "2023-11-22 02:29:29",
+        "entities": [
+            {
+                "category": "InfantryFightingVehicle",
+                "name": "Entity0",
+                "enemy": true,
+                "location": {
+                    "longitude": 120.32249423594052,
+                    "latitude": 29.100103453837985,
+                    "altitude": 134.7171487927533
+                },
+                "policy": "near_enemy",
+                "temperature": 90.2407479933367,
+                "environment": "land",
+                "previous_location": {
+                    "longitude": 120.32807957908052,
+                    "latitude": 29.100169390045778,
+                    "altitude": 135.57401684164478
+                }
+            },
+            {
+                "category": "Vehicles",
+                "name": "Entity1",
+                "enemy": true,
+                "location": {
+                    "longitude": 120.32973799006808,
+                    "latitude": 29.101398623766215,
+                    "altitude": 232.17518498024137
+                },
+                "policy": "near_enemy",
+                "temperature": 54.74511707164342,
+                "environment": "land",
+                "previous_location": {
+                    "longitude": 120.3393472604981,
+                    "latitude": 29.101074127640775,
+                    "altitude": 234.17340088811008
+                }
+            },
+            {
+                "category": "UAV",
+                "name": "Entity2",
+                "enemy": true,
+                "location": {
+                    "longitude": 120.30411888125374,
+                    "latitude": 29.100049096662115,
+                    "altitude": 390.0477462831253
+                },
+                "policy": "near_enemy",
+                "temperature": 101.03378105245612,
+                "environment": "air",
+                "previous_location": {
+                    "longitude": 120.31364147388464,
+                    "latitude": 29.099463053470615,
+                    "altitude": 390.3606507187873
+                }
+            },
+            {
+                "category": "CamouflageNet",
+                "name": "Entity3",
+                "enemy": false,
+                "location": {
+                    "longitude": 120.24332762517487,
+                    "latitude": 29.096989499727215,
+                    "altitude": 346.76057732657
+                },
+                "policy": "far_from_friend",
+                "temperature": 79.61930297421604,
+                "environment": "land",
+                "previous_location": {
+                    "longitude": 120.24332762517487,
+                    "latitude": 29.096989499727215,
+                    "altitude": 346.76057732657
+                }
+            },
+            {
+                "category": "InfantryFightingVehicle",
+                "name": "Entity4",
+                "enemy": false,
+                "location": {
+                    "longitude": 120.28111968991088,
+                    "latitude": 29.09729195138877,
+                    "altitude": 159.17534047249583
+                },
+                "policy": "near_friend",
+                "temperature": 53.7279564863817,
+                "environment": "land",
+                "previous_location": {
+                    "longitude": 120.28279162846145,
+                    "latitude": 29.09853608208606,
+                    "altitude": 167.48463823039603
+                }
+            },
+            {
+                "category": "MissileVehicle",
+                "name": "Entity5",
+                "enemy": false,
+                "location": {
+                    "longitude": 120.28322294323866,
+                    "latitude": 29.09631734110719,
+                    "altitude": 293.6786753065133
+                },
+                "policy": "near_enemy",
+                "temperature": 6.063019103234546,
+                "environment": "land",
+                "previous_location": {
+                    "longitude": 120.28870284214489,
+                    "latitude": 29.096857974259187,
+                    "altitude": 290.7033355588267
+                }
+            },
+            {
+                "category": "UAV",
+                "name": "Entity6",
+                "enemy": false,
+                "location": {
+                    "longitude": 120.25337279926859,
+                    "latitude": 29.096460261407948,
+                    "altitude": 13.73380374553171
+                },
+                "policy": "far_from_friend",
+                "temperature": 71.83186038007315,
+                "environment": "air",
+                "previous_location": {
+                    "longitude": 120.25889617919997,
+                    "latitude": 29.096857823328733,
+                    "altitude": 8.805153033746292
+                }
+            },
+            {
+                "category": "MissileVehicle",
+                "name": "Entity7",
+                "enemy": false,
+                "location": {
+                    "longitude": 120.2221816681535,
+                    "latitude": 29.096311133613927,
+                    "altitude": 158.0911220789859
+                },
+                "policy": "near_enemy",
+                "temperature": 16.734400494034677,
+                "environment": "land",
+                "previous_location": {
+                    "longitude": 120.22839070499842,
+                    "latitude": 29.097095280159365,
+                    "altitude": 157.38825319263506
+                }
+            },
+            {
+                "category": "Tank",
+                "name": "Entity8",
+                "enemy": false,
+                "location": {
+                    "longitude": 120.27838437753904,
+                    "latitude": 29.09760222278033,
+                    "altitude": 375.6803394860127
+                },
+                "policy": "far_from_enemy",
+                "temperature": 86.26751132635805,
+                "environment": "land",
+                "previous_location": {
+                    "longitude": 120.26961783763461,
+                    "latitude": 29.096936001757037,
+                    "altitude": 383.55212735360834
+                }
+            },
+            {
+                "category": "MissileVehicle",
+                "name": "Entity9",
+                "enemy": false,
+                "location": {
+                    "longitude": 120.23398286016187,
+                    "latitude": 29.096350104051115,
+                    "altitude": 179.50261159398679
+                },
+                "policy": "near_enemy",
+                "temperature": 86.78233512481366,
+                "environment": "land",
+                "previous_location": {
+                    "longitude": 120.22679384275403,
+                    "latitude": 29.095787003722243,
+                    "altitude": 187.05753138154168
+                }
+            }
+        ]
+    },
+    {
+        "time": "2023-11-23 02:29:29",
+        "entities": [
+            {
+                "category": "InfantryFightingVehicle",
+                "name": "Entity0",
+                "enemy": true,
+                "location": {
+                    "longitude": 120.31607981540142,
+                    "latitude": 29.101068490131947,
+                    "altitude": 139.42397994321078
+                },
+                "policy": "near_enemy",
+                "temperature": 69.46483455412402,
+                "environment": "land",
+                "previous_location": {
+                    "longitude": 120.32249423594052,
+                    "latitude": 29.100103453837985,
+                    "altitude": 134.7171487927533
+                }
+            },
+            {
+                "category": "Vehicles",
+                "name": "Entity1",
+                "enemy": true,
+                "location": {
+                    "longitude": 120.32491772467222,
+                    "latitude": 29.099992190944292,
+                    "altitude": 223.16780651960065
+                },
+                "policy": "near_enemy",
+                "temperature": 70.150282940631,
+                "environment": "land",
+                "previous_location": {
+                    "longitude": 120.32973799006808,
+                    "latitude": 29.101398623766215,
+                    "altitude": 232.17518498024137
+                }
+            },
+            {
+                "category": "UAV",
+                "name": "Entity2",
+                "enemy": true,
+                "location": {
+                    "longitude": 120.31154402474766,
+                    "latitude": 29.099306336181566,
+                    "altitude": 397.6945174288249
+                },
+                "policy": "near_enemy",
+                "temperature": 81.3862841021965,
+                "environment": "air",
+                "previous_location": {
+                    "longitude": 120.30411888125374,
+                    "latitude": 29.100049096662115,
+                    "altitude": 390.0477462831253
+                }
+            },
+            {
+                "category": "CamouflageNet",
+                "name": "Entity3",
+                "enemy": false,
+                "location": {
+                    "longitude": 120.24332762517487,
+                    "latitude": 29.096989499727215,
+                    "altitude": 346.76057732657
+                },
+                "policy": "far_from_friend",
+                "temperature": 45.98564343923379,
+                "environment": "land",
+                "previous_location": {
+                    "longitude": 120.24332762517487,
+                    "latitude": 29.096989499727215,
+                    "altitude": 346.76057732657
+                }
+            },
+            {
+                "category": "InfantryFightingVehicle",
+                "name": "Entity4",
+                "enemy": false,
+                "location": {
+                    "longitude": 120.27863938226861,
+                    "latitude": 29.09825545995435,
+                    "altitude": 153.6890298067227
+                },
+                "policy": "near_friend",
+                "temperature": 115.39252151917597,
+                "environment": "land",
+                "previous_location": {
+                    "longitude": 120.28111968991088,
+                    "latitude": 29.09729195138877,
+                    "altitude": 159.17534047249583
+                }
+            },
+            {
+                "category": "MissileVehicle",
+                "name": "Entity5",
+                "enemy": false,
+                "location": {
+                    "longitude": 120.2842014532292,
+                    "latitude": 29.095558093984533,
+                    "altitude": 283.75024091172736
+                },
+                "policy": "near_enemy",
+                "temperature": 32.84155567309897,
+                "environment": "land",
+                "previous_location": {
+                    "longitude": 120.28322294323866,
+                    "latitude": 29.09631734110719,
+                    "altitude": 293.6786753065133
+                }
+            },
+            {
+                "category": "UAV",
+                "name": "Entity6",
+                "enemy": false,
+                "location": {
+                    "longitude": 120.2531047298811,
+                    "latitude": 29.09606174511687,
+                    "altitude": 13.483954282231585
+                },
+                "policy": "far_from_friend",
+                "temperature": 38.492138775705655,
+                "environment": "air",
+                "previous_location": {
+                    "longitude": 120.25337279926859,
+                    "latitude": 29.096460261407948,
+                    "altitude": 13.73380374553171
+                }
+            },
+            {
+                "category": "MissileVehicle",
+                "name": "Entity7",
+                "enemy": false,
+                "location": {
+                    "longitude": 120.22584677236438,
+                    "latitude": 29.095307093745404,
+                    "altitude": 163.26870128070564
+                },
+                "policy": "near_enemy",
+                "temperature": 62.471824857358214,
+                "environment": "land",
+                "previous_location": {
+                    "longitude": 120.2221816681535,
+                    "latitude": 29.096311133613927,
+                    "altitude": 158.0911220789859
+                }
+            },
+            {
+                "category": "Tank",
+                "name": "Entity8",
+                "enemy": false,
+                "location": {
+                    "longitude": 120.28651535534881,
+                    "latitude": 29.0981318313174,
+                    "altitude": 384.63301031339637
+                },
+                "policy": "far_from_enemy",
+                "temperature": 106.0200647661023,
+                "environment": "land",
+                "previous_location": {
+                    "longitude": 120.27838437753904,
+                    "latitude": 29.09760222278033,
+                    "altitude": 375.6803394860127
+                }
+            },
+            {
+                "category": "MissileVehicle",
+                "name": "Entity9",
+                "enemy": false,
+                "location": {
+                    "longitude": 120.23532770906586,
+                    "latitude": 29.09585539202669,
+                    "altitude": 180.6421250683003
+                },
+                "policy": "near_enemy",
+                "temperature": 86.67368136382697,
+                "environment": "land",
+                "previous_location": {
+                    "longitude": 120.23398286016187,
+                    "latitude": 29.096350104051115,
+                    "altitude": 179.50261159398679
+                }
+            }
+        ]
+    },
+    {
+        "time": "2023-11-24 02:29:29",
+        "entities": [
+            {
+                "category": "InfantryFightingVehicle",
+                "name": "Entity0",
+                "enemy": true,
+                "location": {
+                    "longitude": 120.31881661647924,
+                    "latitude": 29.101083247829614,
+                    "altitude": 132.62229088165512
+                },
+                "policy": "near_enemy",
+                "temperature": 79.15454486157569,
+                "environment": "land",
+                "previous_location": {
+                    "longitude": 120.31607981540142,
+                    "latitude": 29.101068490131947,
+                    "altitude": 139.42397994321078
+                }
+            },
+            {
+                "category": "Vehicles",
+                "name": "Entity1",
+                "enemy": true,
+                "location": {
+                    "longitude": 120.32895777211704,
+                    "latitude": 29.099279261292793,
+                    "altitude": 222.84803467293273
+                },
+                "policy": "near_enemy",
+                "temperature": 33.74375408676683,
+                "environment": "land",
+                "previous_location": {
+                    "longitude": 120.32491772467222,
+                    "latitude": 29.099992190944292,
+                    "altitude": 223.16780651960065
+                }
+            },
+            {
+                "category": "UAV",
+                "name": "Entity2",
+                "enemy": true,
+                "location": {
+                    "longitude": 120.30474442683486,
+                    "latitude": 29.09875857489415,
+                    "altitude": 388.39731008683253
+                },
+                "policy": "near_enemy",
+                "temperature": 5.347956222050638,
+                "environment": "air",
+                "previous_location": {
+                    "longitude": 120.31154402474766,
+                    "latitude": 29.099306336181566,
+                    "altitude": 397.6945174288249
+                }
+            },
+            {
+                "category": "CamouflageNet",
+                "name": "Entity3",
+                "enemy": false,
+                "location": {
+                    "longitude": 120.24332762517487,
+                    "latitude": 29.096989499727215,
+                    "altitude": 346.76057732657
+                },
+                "policy": "far_from_friend",
+                "temperature": 20.454013983566306,
+                "environment": "land",
+                "previous_location": {
+                    "longitude": 120.24332762517487,
+                    "latitude": 29.096989499727215,
+                    "altitude": 346.76057732657
+                }
+            },
+            {
+                "category": "InfantryFightingVehicle",
+                "name": "Entity4",
+                "enemy": false,
+                "location": {
+                    "longitude": 120.28432778176685,
+                    "latitude": 29.09747757927647,
+                    "altitude": 158.87775944802252
+                },
+                "policy": "near_friend",
+                "temperature": 29.41313012061073,
+                "environment": "land",
+                "previous_location": {
+                    "longitude": 120.27863938226861,
+                    "latitude": 29.09825545995435,
+                    "altitude": 153.6890298067227
+                }
+            },
+            {
+                "category": "MissileVehicle",
+                "name": "Entity5",
+                "enemy": false,
+                "location": {
+                    "longitude": 120.28388760205648,
+                    "latitude": 29.096078205250198,
+                    "altitude": 292.92679069200676
+                },
+                "policy": "near_enemy",
+                "temperature": 94.28334299994407,
+                "environment": "land",
+                "previous_location": {
+                    "longitude": 120.2842014532292,
+                    "latitude": 29.095558093984533,
+                    "altitude": 283.75024091172736
+                }
+            },
+            {
+                "category": "UAV",
+                "name": "Entity6",
+                "enemy": false,
+                "location": {
+                    "longitude": 120.26330155829757,
+                    "latitude": 29.096758048275888,
+                    "altitude": 9.885803733896346
+                },
+                "policy": "far_from_friend",
+                "temperature": 39.93111425362208,
+                "environment": "air",
+                "previous_location": {
+                    "longitude": 120.2531047298811,
+                    "latitude": 29.09606174511687,
+                    "altitude": 13.483954282231585
+                }
+            },
+            {
+                "category": "MissileVehicle",
+                "name": "Entity7",
+                "enemy": false,
+                "location": {
+                    "longitude": 120.17744646124985,
+                    "latitude": 29.096129595455267,
+                    "altitude": 166.53559736421187
+                },
+                "policy": "near_enemy",
+                "temperature": 44.93773428493772,
+                "environment": "land",
+                "previous_location": {
+                    "longitude": 120.22584677236438,
+                    "latitude": 29.095307093745404,
+                    "altitude": 163.26870128070564
+                }
+            },
+            {
+                "category": "Tank",
+                "name": "Entity8",
+                "enemy": false,
+                "location": {
+                    "longitude": 120.2828395911735,
+                    "latitude": 29.098906339450046,
+                    "altitude": 384.5721251597554
+                },
+                "policy": "far_from_enemy",
+                "temperature": 70.26714497976786,
+                "environment": "land",
+                "previous_location": {
+                    "longitude": 120.28651535534881,
+                    "latitude": 29.0981318313174,
+                    "altitude": 384.63301031339637
+                }
+            },
+            {
+                "category": "MissileVehicle",
+                "name": "Entity9",
+                "enemy": false,
+                "location": {
+                    "longitude": 120.23387286953006,
+                    "latitude": 29.09605250421269,
+                    "altitude": 181.70059172345597
+                },
+                "policy": "near_enemy",
+                "temperature": 56.07766346209149,
+                "environment": "land",
+                "previous_location": {
+                    "longitude": 120.23532770906586,
+                    "latitude": 29.09585539202669,
+                    "altitude": 180.6421250683003
+                }
+            }
+        ]
+    }
+]

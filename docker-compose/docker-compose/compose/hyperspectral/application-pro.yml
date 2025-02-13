@@ -1,0 +1,33 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.22.129:3317/hyperspectral?tinyInt1isBit=false&characterEncoding=utf8&useSSL=false&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT%2B8
+
+mybatis-plus:
+  global-config:
+    db-config:
+      table-prefix: x_
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+jwt:
+  # Token过期时间 单位：毫秒
+  expire: 864500000
+  # 密钥 用于加密数据
+  secret: oKWI6r6tRbE0MGSF3DbXkWDVBnBMyIQL
+
+file:
+  # 是否定期删除上传文件的缓存文件
+  clean-cache: true
+  # 缓存文件保存时间，单位（天）
+  temp-file-save-date: 0
+file-path:
+  # 文件URL访问路径前缀
+  url: /files
+  # 上传文件保存地址
+  repository: /home/ggpts/files
+  # 临时文件保存相对路径
+  temp-path: temp

@@ -1,0 +1,40 @@
+{% extends 'common.html' %}    <!-- 导入模板文件 -->
+{% block title %}态势建模{% endblock %}   <!-- 修改模板中的网页标题内容部分 -->
+
+{% block header %}
+<div class="header">   <!-- 头部区域的导航 -->
+     <table>
+         <tr>
+             <td><a href="/ "><img src="{{ url_for('static',filename='img/index.png')}}" height="35px" alt=""></a></td>
+             <td><a href="/situationModel"><img src="{{ url_for('static',filename='img/model.png')}}" height="35px" alt=""></a></td>
+             <td><a href="/situationSupervision"><img src="{{ url_for('static',filename='img/supervision.png')}}" height="35px" alt=""></a></td>
+             <td><a href="/situationCalculation"><img src="{{ url_for('static',filename='img/calculation2.png')}}" height="35px" alt=""></a></td>
+             <td><img src="{{ url_for('static',filename='img/blank.png')}}" height="35px" alt=""></td>
+             <td><a href="/login"><img src="{{ url_for('static',filename='img/login.png')}}" height="35px" alt=""></a></td>
+             <td><a href="/ "><img src="{{ url_for('static',filename='img/register.png')}}" height="35px" alt=""></a></td>
+         </tr>
+     </table>
+ </div>
+{% endblock %}
+
+{% block container %}
+      <div class="container">
+            <div class="header2">
+                  <table>
+                        <tr>
+                              <td><img src="{{ url_for('static',filename='img/blank2.png')}}" height="35px" alt=""></td>
+                              <td><img src="{{ url_for('static',filename='img/blank2.png')}}" height="35px" alt=""></td>
+                              <td><img src="{{ url_for('static',filename='img/blank2.png')}}" height="35px" alt=""></td>
+                              <td><a href="#"><img src="{{ url_for('static',filename='img/attention detection.png')}}" height="35px" alt=""></a></td>
+                              <td><a href="#"><img src="{{ url_for('static',filename='img/situation assessment.png')}}" height="35px" alt=""></a></td>
+                        </tr>
+                  </table>
+            </div>
+            <div class="container2">                 
+                  <form action="/submitFile" method="post" enctype="multipart/form-data">
+                        <input type="file" name="file">
+                        <input type="submit" value="提交文件">
+                  </form>
+            </div>
+      </div>
+{% endblock %}

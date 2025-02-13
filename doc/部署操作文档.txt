@@ -1,0 +1,15 @@
+部署操作文档
+1.导入5个镜像文件
+docker load -i javaimage.tar
+docker load -i mysql.tar
+docker load -i nginx.tar
+docker load -i tomcat.tar
+docker load -i my_new_image.tar
+
+2.启动docker
+cd到compose⽂件夹下
+# 启动 
+docker-compose up -d
+# 停⽌ 
+docker-compose down
+

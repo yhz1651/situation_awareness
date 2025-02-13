@@ -1,0 +1,118 @@
+{% extends 'situation model.html' %}    <!-- 导入模板文件 -->
+{% block title %}态势导入{% endblock %}   <!-- 修改模板中的网页标题内容部分 -->
+{% block header %}
+<div class="header">   <!-- 头部区域的导航 -->
+     <table>
+         <tr>
+             <td><a href="/ "><img src="{{ url_for('static',filename='img/index.png')}}" height="35px" alt=""></a></td>
+             <td><a href="/situationModel"><img src="{{ url_for('static',filename='img/model2.png')}}" height="35px" alt=""></a></td>
+             <td><a href="/situationSupervision"><img src="{{ url_for('static',filename='img/supervision.png')}}" height="35px" alt=""></a></td>
+             <td><a href="/situationCalculation"><img src="{{ url_for('static',filename='img/calculation.png')}}" height="35px" alt=""></a></td>
+             <td><img src="{{ url_for('static',filename='img/blank.png')}}" height="35px" alt=""></td>
+             <td><a href="/login"><img src="{{ url_for('static',filename='img/login.png')}}" height="35px" alt=""></a></td>
+             <td><a href="/ "><img src="{{ url_for('static',filename='img/register.png')}}" height="35px" alt=""></a></td>
+         </tr>
+     </table>
+ </div>
+{% endblock %}
+
+{% block container %}
+<div class="container">
+    <div class="header2">
+            <table>
+                <tr>
+                        <td><img src="{{ url_for('static',filename='img/blank2.png')}}" height="35px" alt=""></td>
+                        <td><a href="/situationModel/situationImport"><img src="{{ url_for('static',filename='img/situation import.png')}}" height="35px" alt=""></a></td>
+                        <td><a href="/situationModel/situationManagement"><img src="{{ url_for('static',filename='img/situation management.png')}}" height="35px" alt=""></a></td>
+                        <td><a href="#"><img src="{{ url_for('static',filename='img/situation visualization.png')}}" height="35px" alt=""></a></td>
+                        <td><a href="/situationModel/autoInference"><img src="{{ url_for('static',filename='img/auto inference.png')}}" height="35px" alt=""></a></td>
+                </tr>
+            </table>
+    </div>
+<div class="container2">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        form {
+            display: flex;
+            justify-content: left;
+            align-items: left;
+            flex-direction: column;
+            margin-top: 50px;
+        }
+
+        .question {
+            margin-bottom: 20px;
+            margin-left: 100px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        label::before {
+            content: "*";
+            color: red;
+            display: inline-block;
+            margin-right: 5px;
+        }
+
+        input[type="radio"] {
+            margin-right: 10px;
+        }
+
+        input[type="submit"] {
+            margin-top: 20px;
+        }
+
+        .textarea1 {
+        width: 800px; /* 设置输入框宽度 */
+        height: 20px; /* 设置输入框高度 */
+        padding: 10px; /* 设置内边距 */
+    }
+
+    .textarea2 {
+        width: 800px; /* 设置输入框宽度 */
+        height: 80px; /* 设置输入框高度 */
+        padding: 10px; /* 设置内边距 */
+    }
+    
+    .textarea1::placeholder {
+        color: gray; /* 设置默认文字颜色 */
+        opacity: 0.3; /* 设置透明度，范围从0到1，1表示完全不透明 */
+    }
+    </style>
+<body>
+    <form action="/survey" method="post">
+        <div class="question">
+            <label for="question1">态势名称：</label>
+            <textarea name="question1" id="question1" class="textarea1">请输入态势名称</textarea>
+        </div>
+
+        <div class="question">
+            <label for="question2">态势类型：</label>
+            <textarea name="question2" id="question2" class="textarea1"></textarea>
+        </div>
+
+        <div class="question">
+            <label for="question3">态势描述：</label>
+            <textarea name="question3" id="question3" class="textarea2"></textarea>
+        </div>
+        <div class="question">
+            <label for="question4">态势文件上传：</label>
+            <input type="file" name="question4" id="question4">
+        </div>
+
+        <!-- <input type="submit" value="提交" /> -->
+    </form>
+</body>
+</div>
+</div>
+{% endblock %}

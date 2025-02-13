@@ -1,0 +1,1469 @@
+[
+    {
+        "entity": "Entity0",
+        "current_time": "2023-11-24 07:37:40",
+        "policy": "far_from_enemy",
+        "original_location": {
+            "longitude": 25.512822051254055,
+            "latitude": 44.587731594819545
+        }
+    },
+    {
+        "entity": "Entity0",
+        "current_time": "2023-11-30 07:37:40",
+        "policy": "far_from_enemy",
+        "original_location": {
+            "longitude": 25.49464079190732,
+            "latitude": 44.57026133249458
+        }
+    },
+    {
+        "entity": "Entity0",
+        "current_time": "2023-12-01 07:37:40",
+        "policy": "far_from_enemy",
+        "original_location": {
+            "longitude": 25.495028551201383,
+            "latitude": 44.57347964997746
+        }
+    },
+    {
+        "entity": "Entity1",
+        "current_time": "2023-11-07 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 25.287386864263325,
+            "latitude": 46.373755704232615
+        }
+    },
+    {
+        "entity": "Entity1",
+        "current_time": "2023-11-17 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 25.34014226869223,
+            "latitude": 46.35499274703475
+        }
+    },
+    {
+        "entity": "Entity1",
+        "current_time": "2023-11-25 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 25.33332083692624,
+            "latitude": 46.350362377480835
+        }
+    },
+    {
+        "entity": "Entity1",
+        "current_time": "2023-11-27 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 25.351903562349182,
+            "latitude": 46.35035852097007
+        }
+    },
+    {
+        "entity": "Entity1",
+        "current_time": "2023-12-03 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 25.35741983809536,
+            "latitude": 46.34969790870216
+        }
+    },
+    {
+        "entity": "Entity10",
+        "current_time": "2023-11-07 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 22.30384856110814,
+            "latitude": 44.74326112041292
+        }
+    },
+    {
+        "entity": "Entity10",
+        "current_time": "2023-11-25 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 22.147872725712862,
+            "latitude": 44.33162284269528
+        }
+    },
+    {
+        "entity": "Entity10",
+        "current_time": "2023-12-02 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 22.0,
+            "latitude": 44.19923784101815
+        }
+    },
+    {
+        "entity": "Entity11",
+        "current_time": "2023-11-08 07:37:40",
+        "policy": "near_friend",
+        "original_location": {
+            "longitude": 23.729146339729088,
+            "latitude": 45.297766705839166
+        }
+    },
+    {
+        "entity": "Entity11",
+        "current_time": "2023-11-28 07:37:40",
+        "policy": "near_friend",
+        "original_location": {
+            "longitude": 23.74662851001289,
+            "latitude": 45.350916509338475
+        }
+    },
+    {
+        "entity": "Entity12",
+        "current_time": "2023-11-18 07:37:40",
+        "policy": "near_friend",
+        "original_location": {
+            "longitude": 28.39152699146889,
+            "latitude": 47.457274665073065
+        }
+    },
+    {
+        "entity": "Entity12",
+        "current_time": "2023-11-19 07:37:40",
+        "policy": "near_friend",
+        "original_location": {
+            "longitude": 28.46059271647872,
+            "latitude": 47.46712120176597
+        }
+    },
+    {
+        "entity": "Entity12",
+        "current_time": "2023-11-22 07:37:40",
+        "policy": "near_friend",
+        "original_location": {
+            "longitude": 28.488800568356062,
+            "latitude": 47.47134115008412
+        }
+    },
+    {
+        "entity": "Entity12",
+        "current_time": "2023-11-28 07:37:40",
+        "policy": "near_friend",
+        "original_location": {
+            "longitude": 28.36102408731699,
+            "latitude": 47.37628152499311
+        }
+    },
+    {
+        "entity": "Entity13",
+        "current_time": "2023-11-13 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 28.681113056123205,
+            "latitude": 45.70037219081715
+        }
+    },
+    {
+        "entity": "Entity13",
+        "current_time": "2023-11-22 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 28.616641138480098,
+            "latitude": 45.77902298752045
+        }
+    },
+    {
+        "entity": "Entity13",
+        "current_time": "2023-11-25 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 28.64185628144436,
+            "latitude": 45.782528709844506
+        }
+    },
+    {
+        "entity": "Entity14",
+        "current_time": "2023-11-14 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 23.866530966246607,
+            "latitude": 46.066570628037574
+        }
+    },
+    {
+        "entity": "Entity15",
+        "current_time": "2023-11-26 07:37:40",
+        "policy": "near_enemy",
+        "original_location": {
+            "longitude": 25.877662802568352,
+            "latitude": 48.00425363832475
+        }
+    },
+    {
+        "entity": "Entity15",
+        "current_time": "2023-11-29 07:37:40",
+        "policy": "near_enemy",
+        "original_location": {
+            "longitude": 25.89538125922559,
+            "latitude": 48.00600093480624
+        }
+    },
+    {
+        "entity": "Entity15",
+        "current_time": "2023-11-30 07:37:40",
+        "policy": "near_enemy",
+        "original_location": {
+            "longitude": 25.896704428259834,
+            "latitude": 48.002265877438845
+        }
+    },
+    {
+        "entity": "Entity16",
+        "current_time": "2023-11-09 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 22.85038615178506,
+            "latitude": 44.39335230549052
+        }
+    },
+    {
+        "entity": "Entity16",
+        "current_time": "2023-11-13 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 22.876164445044687,
+            "latitude": 44.39403060156629
+        }
+    },
+    {
+        "entity": "Entity16",
+        "current_time": "2023-11-23 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 22.9579908828635,
+            "latitude": 44.40152481820678
+        }
+    },
+    {
+        "entity": "Entity16",
+        "current_time": "2023-11-26 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 22.97486916774807,
+            "latitude": 44.40369650610804
+        }
+    },
+    {
+        "entity": "Entity16",
+        "current_time": "2023-12-06 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 23.07189890266058,
+            "latitude": 44.42484906017379
+        }
+    },
+    {
+        "entity": "Entity17",
+        "current_time": "2023-11-19 07:37:40",
+        "policy": "near_friend",
+        "original_location": {
+            "longitude": 24.765067159300738,
+            "latitude": 46.35126793718818
+        }
+    },
+    {
+        "entity": "Entity17",
+        "current_time": "2023-11-30 07:37:40",
+        "policy": "near_friend",
+        "original_location": {
+            "longitude": 24.794382855741,
+            "latitude": 46.4038511345255
+        }
+    },
+    {
+        "entity": "Entity18",
+        "current_time": "2023-11-11 07:37:40",
+        "policy": "near_friend",
+        "original_location": {
+            "longitude": 28.006554783731573,
+            "latitude": 47.77780030767812
+        }
+    },
+    {
+        "entity": "Entity18",
+        "current_time": "2023-11-13 07:37:40",
+        "policy": "near_friend",
+        "original_location": {
+            "longitude": 27.9900969871278,
+            "latitude": 47.77756104042006
+        }
+    },
+    {
+        "entity": "Entity18",
+        "current_time": "2023-11-15 07:37:40",
+        "policy": "near_friend",
+        "original_location": {
+            "longitude": 27.998620546767956,
+            "latitude": 47.772882262699554
+        }
+    },
+    {
+        "entity": "Entity19",
+        "current_time": "2023-12-07 07:37:40",
+        "policy": "near_enemy",
+        "original_location": {
+            "longitude": 29.901650432140578,
+            "latitude": 45.1664084131002
+        }
+    },
+    {
+        "entity": "Entity2",
+        "current_time": "2023-11-11 07:37:40",
+        "policy": "near_enemy",
+        "original_location": {
+            "longitude": 25.719379549638525,
+            "latitude": 44.34148376174262
+        }
+    },
+    {
+        "entity": "Entity2",
+        "current_time": "2023-11-28 07:37:40",
+        "policy": "near_enemy",
+        "original_location": {
+            "longitude": 26.175261184878376,
+            "latitude": 44.733453298027
+        }
+    },
+    {
+        "entity": "Entity2",
+        "current_time": "2023-12-04 07:37:40",
+        "policy": "near_enemy",
+        "original_location": {
+            "longitude": 26.25344247622313,
+            "latitude": 44.82424412752627
+        }
+    },
+    {
+        "entity": "Entity2",
+        "current_time": "2023-12-05 07:37:40",
+        "policy": "near_enemy",
+        "original_location": {
+            "longitude": 26.171361729563177,
+            "latitude": 44.7655257996812
+        }
+    },
+    {
+        "entity": "Entity20",
+        "current_time": "2023-11-12 07:37:40",
+        "policy": "near_friend",
+        "original_location": {
+            "longitude": 23.879938098043688,
+            "latitude": 45.35246173160574
+        }
+    },
+    {
+        "entity": "Entity20",
+        "current_time": "2023-11-24 07:37:40",
+        "policy": "near_friend",
+        "original_location": {
+            "longitude": 23.75769440512092,
+            "latitude": 45.31426402281713
+        }
+    },
+    {
+        "entity": "Entity20",
+        "current_time": "2023-11-25 07:37:40",
+        "policy": "near_friend",
+        "original_location": {
+            "longitude": 23.751116969856355,
+            "latitude": 45.38859099509798
+        }
+    },
+    {
+        "entity": "Entity21",
+        "current_time": "2023-11-07 07:37:40",
+        "policy": "far_from_enemy",
+        "original_location": {
+            "longitude": 22.63864954448246,
+            "latitude": 46.38639998280138
+        }
+    },
+    {
+        "entity": "Entity21",
+        "current_time": "2023-11-15 07:37:40",
+        "policy": "far_from_enemy",
+        "original_location": {
+            "longitude": 22.51345662171043,
+            "latitude": 46.36309319697411
+        }
+    },
+    {
+        "entity": "Entity21",
+        "current_time": "2023-11-17 07:37:40",
+        "policy": "far_from_enemy",
+        "original_location": {
+            "longitude": 22.47645789484024,
+            "latitude": 46.358961603666266
+        }
+    },
+    {
+        "entity": "Entity21",
+        "current_time": "2023-11-21 07:37:40",
+        "policy": "far_from_enemy",
+        "original_location": {
+            "longitude": 22.415860627087795,
+            "latitude": 46.346769600368305
+        }
+    },
+    {
+        "entity": "Entity21",
+        "current_time": "2023-11-26 07:37:40",
+        "policy": "far_from_enemy",
+        "original_location": {
+            "longitude": 22.338230509272567,
+            "latitude": 46.3143626670592
+        }
+    },
+    {
+        "entity": "Entity21",
+        "current_time": "2023-12-02 07:37:40",
+        "policy": "far_from_enemy",
+        "original_location": {
+            "longitude": 22.154040810331004,
+            "latitude": 46.30102081784054
+        }
+    },
+    {
+        "entity": "Entity22",
+        "current_time": "2023-11-07 07:37:40",
+        "policy": "near_friend",
+        "original_location": {
+            "longitude": 25.01769434683657,
+            "latitude": 46.587574827417065
+        }
+    },
+    {
+        "entity": "Entity22",
+        "current_time": "2023-11-11 07:37:40",
+        "policy": "near_friend",
+        "original_location": {
+            "longitude": 24.94609279101659,
+            "latitude": 46.49813222188851
+        }
+    },
+    {
+        "entity": "Entity22",
+        "current_time": "2023-11-16 07:37:40",
+        "policy": "near_friend",
+        "original_location": {
+            "longitude": 24.784564677790783,
+            "latitude": 46.43359194206496
+        }
+    },
+    {
+        "entity": "Entity22",
+        "current_time": "2023-11-27 07:37:40",
+        "policy": "near_friend",
+        "original_location": {
+            "longitude": 24.750297012632753,
+            "latitude": 46.54259608631977
+        }
+    },
+    {
+        "entity": "Entity22",
+        "current_time": "2023-11-30 07:37:40",
+        "policy": "near_friend",
+        "original_location": {
+            "longitude": 24.734197306888294,
+            "latitude": 46.56849853627825
+        }
+    },
+    {
+        "entity": "Entity23",
+        "current_time": "2023-11-22 07:37:40",
+        "policy": "far_from_enemy",
+        "original_location": {
+            "longitude": 27.860157679170115,
+            "latitude": 47.69288672764245
+        }
+    },
+    {
+        "entity": "Entity23",
+        "current_time": "2023-11-27 07:37:40",
+        "policy": "far_from_enemy",
+        "original_location": {
+            "longitude": 27.798402357693913,
+            "latitude": 47.67721953330577
+        }
+    },
+    {
+        "entity": "Entity24",
+        "current_time": "2023-11-14 07:37:40",
+        "policy": "far_from_enemy",
+        "original_location": {
+            "longitude": 22.371172059252494,
+            "latitude": 44.28485492801194
+        }
+    },
+    {
+        "entity": "Entity24",
+        "current_time": "2023-11-24 07:37:40",
+        "policy": "far_from_enemy",
+        "original_location": {
+            "longitude": 22.213036881676917,
+            "latitude": 44.215900724385854
+        }
+    },
+    {
+        "entity": "Entity24",
+        "current_time": "2023-11-25 07:37:40",
+        "policy": "far_from_enemy",
+        "original_location": {
+            "longitude": 22.239431987271974,
+            "latitude": 44.231576880455755
+        }
+    },
+    {
+        "entity": "Entity24",
+        "current_time": "2023-11-29 07:37:40",
+        "policy": "far_from_enemy",
+        "original_location": {
+            "longitude": 22.20031417351152,
+            "latitude": 44.20108991157057
+        }
+    },
+    {
+        "entity": "Entity24",
+        "current_time": "2023-12-06 07:37:40",
+        "policy": "far_from_enemy",
+        "original_location": {
+            "longitude": 22.08504320440405,
+            "latitude": 44.132832730565504
+        }
+    },
+    {
+        "entity": "Entity24",
+        "current_time": "2023-12-07 07:37:40",
+        "policy": "far_from_enemy",
+        "original_location": {
+            "longitude": 22.115545851346756,
+            "latitude": 44.14288332058977
+        }
+    },
+    {
+        "entity": "Entity25",
+        "current_time": "2023-11-19 07:37:40",
+        "policy": "near_friend",
+        "original_location": {
+            "longitude": 26.321116778440317,
+            "latitude": 45.328625623311005
+        }
+    },
+    {
+        "entity": "Entity25",
+        "current_time": "2023-11-28 07:37:40",
+        "policy": "near_friend",
+        "original_location": {
+            "longitude": 26.573119611700022,
+            "latitude": 45.42124605280235
+        }
+    },
+    {
+        "entity": "Entity25",
+        "current_time": "2023-12-03 07:37:40",
+        "policy": "near_friend",
+        "original_location": {
+            "longitude": 26.640997546534326,
+            "latitude": 45.46348996412355
+        }
+    },
+    {
+        "entity": "Entity25",
+        "current_time": "2023-12-06 07:37:40",
+        "policy": "near_friend",
+        "original_location": {
+            "longitude": 26.602157899259538,
+            "latitude": 45.45998697437163
+        }
+    },
+    {
+        "entity": "Entity26",
+        "current_time": "2023-11-09 07:37:40",
+        "policy": "near_friend",
+        "original_location": {
+            "longitude": 22.287558473624888,
+            "latitude": 44.96038362501471
+        }
+    },
+    {
+        "entity": "Entity26",
+        "current_time": "2023-11-17 07:37:40",
+        "policy": "near_friend",
+        "original_location": {
+            "longitude": 22.309397359944533,
+            "latitude": 44.68418494097349
+        }
+    },
+    {
+        "entity": "Entity26",
+        "current_time": "2023-11-26 07:37:40",
+        "policy": "near_friend",
+        "original_location": {
+            "longitude": 22.185060758819883,
+            "latitude": 44.39839687931595
+        }
+    },
+    {
+        "entity": "Entity26",
+        "current_time": "2023-12-04 07:37:40",
+        "policy": "near_friend",
+        "original_location": {
+            "longitude": 22.07070933867089,
+            "latitude": 44.26818091844737
+        }
+    },
+    {
+        "entity": "Entity27",
+        "current_time": "2023-11-21 07:37:40",
+        "policy": "near_enemy",
+        "original_location": {
+            "longitude": 26.415248295899502,
+            "latitude": 45.388557812597945
+        }
+    },
+    {
+        "entity": "Entity28",
+        "current_time": "2023-11-10 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 23.553369613667563,
+            "latitude": 48.05022720677037
+        }
+    },
+    {
+        "entity": "Entity28",
+        "current_time": "2023-11-14 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 23.541222052673053,
+            "latitude": 48.06435707885894
+        }
+    },
+    {
+        "entity": "Entity28",
+        "current_time": "2023-11-23 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 23.555968871959532,
+            "latitude": 48.34643322611983
+        }
+    },
+    {
+        "entity": "Entity28",
+        "current_time": "2023-11-30 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 23.54912487083322,
+            "latitude": 48.58306514589562
+        }
+    },
+    {
+        "entity": "Entity29",
+        "current_time": "2023-11-14 07:37:40",
+        "policy": "far_from_enemy",
+        "original_location": {
+            "longitude": 27.702219491975907,
+            "latitude": 45.95759060889559
+        }
+    },
+    {
+        "entity": "Entity29",
+        "current_time": "2023-11-17 07:37:40",
+        "policy": "far_from_enemy",
+        "original_location": {
+            "longitude": 27.60785610508723,
+            "latitude": 45.91794993427198
+        }
+    },
+    {
+        "entity": "Entity29",
+        "current_time": "2023-11-21 07:37:40",
+        "policy": "far_from_enemy",
+        "original_location": {
+            "longitude": 27.526195585599254,
+            "latitude": 45.898467704305155
+        }
+    },
+    {
+        "entity": "Entity29",
+        "current_time": "2023-11-24 07:37:40",
+        "policy": "far_from_enemy",
+        "original_location": {
+            "longitude": 27.525838382756227,
+            "latitude": 45.81573492857952
+        }
+    },
+    {
+        "entity": "Entity29",
+        "current_time": "2023-12-02 07:37:40",
+        "policy": "far_from_enemy",
+        "original_location": {
+            "longitude": 27.334799469213312,
+            "latitude": 45.599458198800306
+        }
+    },
+    {
+        "entity": "Entity3",
+        "current_time": "2023-11-09 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 29.892005883709317,
+            "latitude": 46.72598776674161
+        }
+    },
+    {
+        "entity": "Entity3",
+        "current_time": "2023-11-19 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 29.98087175281712,
+            "latitude": 46.73232825512785
+        }
+    },
+    {
+        "entity": "Entity3",
+        "current_time": "2023-11-25 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 30.049059427224414,
+            "latitude": 46.736991495761096
+        }
+    },
+    {
+        "entity": "Entity3",
+        "current_time": "2023-12-04 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 30.092679015378202,
+            "latitude": 46.74233331696798
+        }
+    },
+    {
+        "entity": "Entity3",
+        "current_time": "2023-12-06 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 30.07089437584944,
+            "latitude": 46.74165061258175
+        }
+    },
+    {
+        "entity": "Entity30",
+        "current_time": "2023-11-29 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 28.843237031001525,
+            "latitude": 46.624385837018096
+        }
+    },
+    {
+        "entity": "Entity31",
+        "current_time": "2023-11-24 07:37:40",
+        "policy": "far_from_enemy",
+        "original_location": {
+            "longitude": 24.79604560533392,
+            "latitude": 46.44267453679364
+        }
+    },
+    {
+        "entity": "Entity31",
+        "current_time": "2023-11-30 07:37:40",
+        "policy": "far_from_enemy",
+        "original_location": {
+            "longitude": 24.793912791252698,
+            "latitude": 46.43700890036552
+        }
+    },
+    {
+        "entity": "Entity32",
+        "current_time": "2023-11-13 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 23.054869825376574,
+            "latitude": 46.89383258363633
+        }
+    },
+    {
+        "entity": "Entity32",
+        "current_time": "2023-11-20 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 23.121645069898644,
+            "latitude": 46.86578386797766
+        }
+    },
+    {
+        "entity": "Entity32",
+        "current_time": "2023-11-21 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 23.126237612643454,
+            "latitude": 46.929517926926835
+        }
+    },
+    {
+        "entity": "Entity32",
+        "current_time": "2023-12-06 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 23.228748497968876,
+            "latitude": 46.62131464863647
+        }
+    },
+    {
+        "entity": "Entity33",
+        "current_time": "2023-11-15 07:37:40",
+        "policy": "far_from_enemy",
+        "original_location": {
+            "longitude": 29.396510729441964,
+            "latitude": 45.23850128852772
+        }
+    },
+    {
+        "entity": "Entity33",
+        "current_time": "2023-11-25 07:37:40",
+        "policy": "far_from_enemy",
+        "original_location": {
+            "longitude": 29.372269976723878,
+            "latitude": 45.20648891985812
+        }
+    },
+    {
+        "entity": "Entity34",
+        "current_time": "2023-11-10 07:37:40",
+        "policy": "far_from_enemy",
+        "original_location": {
+            "longitude": 28.465915244986945,
+            "latitude": 47.44550348651778
+        }
+    },
+    {
+        "entity": "Entity34",
+        "current_time": "2023-11-14 07:37:40",
+        "policy": "far_from_enemy",
+        "original_location": {
+            "longitude": 28.383292332213067,
+            "latitude": 47.43311120711682
+        }
+    },
+    {
+        "entity": "Entity34",
+        "current_time": "2023-11-19 07:37:40",
+        "policy": "far_from_enemy",
+        "original_location": {
+            "longitude": 28.211140638572672,
+            "latitude": 47.39120053353844
+        }
+    },
+    {
+        "entity": "Entity34",
+        "current_time": "2023-11-28 07:37:40",
+        "policy": "far_from_enemy",
+        "original_location": {
+            "longitude": 28.022306409687005,
+            "latitude": 47.25631566214123
+        }
+    },
+    {
+        "entity": "Entity34",
+        "current_time": "2023-11-29 07:37:40",
+        "policy": "far_from_enemy",
+        "original_location": {
+            "longitude": 28.10515226783314,
+            "latitude": 47.295676938359854
+        }
+    },
+    {
+        "entity": "Entity35",
+        "current_time": "2023-11-07 07:37:40",
+        "policy": "near_enemy",
+        "original_location": {
+            "longitude": 37.40929871609101,
+            "latitude": 50.51556579948691
+        }
+    },
+    {
+        "entity": "Entity35",
+        "current_time": "2023-11-10 07:37:40",
+        "policy": "near_enemy",
+        "original_location": {
+            "longitude": 37.40532925539183,
+            "latitude": 50.51211413296748
+        }
+    },
+    {
+        "entity": "Entity35",
+        "current_time": "2023-11-17 07:37:40",
+        "policy": "near_enemy",
+        "original_location": {
+            "longitude": 37.2720959545706,
+            "latitude": 50.464347502199466
+        }
+    },
+    {
+        "entity": "Entity35",
+        "current_time": "2023-11-28 07:37:40",
+        "policy": "near_enemy",
+        "original_location": {
+            "longitude": 37.04026046454345,
+            "latitude": 50.34805888455736
+        }
+    },
+    {
+        "entity": "Entity35",
+        "current_time": "2023-12-02 07:37:40",
+        "policy": "near_enemy",
+        "original_location": {
+            "longitude": 36.99557334736473,
+            "latitude": 50.32714021809728
+        }
+    },
+    {
+        "entity": "Entity36",
+        "current_time": "2023-11-08 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 32.55549077214382,
+            "latitude": 48.91102811696431
+        }
+    },
+    {
+        "entity": "Entity36",
+        "current_time": "2023-11-09 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 32.54456772988231,
+            "latitude": 48.97024436731689
+        }
+    },
+    {
+        "entity": "Entity36",
+        "current_time": "2023-11-13 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 32.56628123356606,
+            "latitude": 48.87639097999539
+        }
+    },
+    {
+        "entity": "Entity36",
+        "current_time": "2023-11-22 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 32.05245633329741,
+            "latitude": 48.92086883221207
+        }
+    },
+    {
+        "entity": "Entity36",
+        "current_time": "2023-11-28 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 31.84954323768587,
+            "latitude": 48.95883849376018
+        }
+    },
+    {
+        "entity": "Entity36",
+        "current_time": "2023-12-03 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 31.690337175808693,
+            "latitude": 48.99368646363352
+        }
+    },
+    {
+        "entity": "Entity37",
+        "current_time": "2023-11-25 07:37:40",
+        "policy": "near_friend",
+        "original_location": {
+            "longitude": 33.244045381107874,
+            "latitude": 48.687835363474015
+        }
+    },
+    {
+        "entity": "Entity37",
+        "current_time": "2023-11-28 07:37:40",
+        "policy": "near_friend",
+        "original_location": {
+            "longitude": 33.27069224730414,
+            "latitude": 48.705324829330806
+        }
+    },
+    {
+        "entity": "Entity37",
+        "current_time": "2023-12-02 07:37:40",
+        "policy": "near_friend",
+        "original_location": {
+            "longitude": 33.141574448551665,
+            "latitude": 48.698810781123896
+        }
+    },
+    {
+        "entity": "Entity37",
+        "current_time": "2023-12-06 07:37:40",
+        "policy": "near_friend",
+        "original_location": {
+            "longitude": 33.03098777563102,
+            "latitude": 48.727555579568
+        }
+    },
+    {
+        "entity": "Entity38",
+        "current_time": "2023-11-10 07:37:40",
+        "policy": "near_enemy",
+        "original_location": {
+            "longitude": 37.21051017780507,
+            "latitude": 51.40513750084426
+        }
+    },
+    {
+        "entity": "Entity38",
+        "current_time": "2023-11-22 07:37:40",
+        "policy": "near_enemy",
+        "original_location": {
+            "longitude": 36.88616855159185,
+            "latitude": 51.121847436081005
+        }
+    },
+    {
+        "entity": "Entity39",
+        "current_time": "2023-11-11 07:37:40",
+        "policy": "near_friend",
+        "original_location": {
+            "longitude": 32.16156394685905,
+            "latitude": 50.04567057386997
+        }
+    },
+    {
+        "entity": "Entity39",
+        "current_time": "2023-11-26 07:37:40",
+        "policy": "near_friend",
+        "original_location": {
+            "longitude": 32.627605215162276,
+            "latitude": 50.09674278687557
+        }
+    },
+    {
+        "entity": "Entity4",
+        "current_time": "2023-11-21 07:37:40",
+        "policy": "far_from_enemy",
+        "original_location": {
+            "longitude": 23.530231853148035,
+            "latitude": 47.426912602542316
+        }
+    },
+    {
+        "entity": "Entity4",
+        "current_time": "2023-11-24 07:37:40",
+        "policy": "far_from_enemy",
+        "original_location": {
+            "longitude": 23.529370270347183,
+            "latitude": 47.426569179519674
+        }
+    },
+    {
+        "entity": "Entity4",
+        "current_time": "2023-12-07 07:37:40",
+        "policy": "far_from_enemy",
+        "original_location": {
+            "longitude": 23.511630638111885,
+            "latitude": 47.41839537448785
+        }
+    },
+    {
+        "entity": "Entity40",
+        "current_time": "2023-11-12 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 39.1044128369228,
+            "latitude": 48.99712301097505
+        }
+    },
+    {
+        "entity": "Entity41",
+        "current_time": "2023-11-10 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 33.90618553142896,
+            "latitude": 51.3852847381555
+        }
+    },
+    {
+        "entity": "Entity41",
+        "current_time": "2023-11-13 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 33.72653932888544,
+            "latitude": 51.370190888775035
+        }
+    },
+    {
+        "entity": "Entity41",
+        "current_time": "2023-11-22 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 33.27454153933594,
+            "latitude": 51.30220447042224
+        }
+    },
+    {
+        "entity": "Entity41",
+        "current_time": "2023-12-06 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 33.20430914221045,
+            "latitude": 51.870276638543096
+        }
+    },
+    {
+        "entity": "Entity42",
+        "current_time": "2023-11-23 07:37:40",
+        "policy": "near_enemy",
+        "original_location": {
+            "longitude": 36.63873871177563,
+            "latitude": 50.21250996072173
+        }
+    },
+    {
+        "entity": "Entity43",
+        "current_time": "2023-11-27 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 39.695224979566184,
+            "latitude": 49.88316984997505
+        }
+    },
+    {
+        "entity": "Entity43",
+        "current_time": "2023-12-02 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 39.71474740344338,
+            "latitude": 49.67230458880109
+        }
+    },
+    {
+        "entity": "Entity44",
+        "current_time": "2023-11-17 07:37:40",
+        "policy": "far_from_enemy",
+        "original_location": {
+            "longitude": 37.67486613022236,
+            "latitude": 51.86913111740861
+        }
+    },
+    {
+        "entity": "Entity45",
+        "current_time": "2023-11-20 07:37:40",
+        "policy": "near_friend",
+        "original_location": {
+            "longitude": 36.319065135916404,
+            "latitude": 50.58207080988718
+        }
+    },
+    {
+        "entity": "Entity45",
+        "current_time": "2023-11-29 07:37:40",
+        "policy": "near_friend",
+        "original_location": {
+            "longitude": 36.343413334305396,
+            "latitude": 50.55176311002935
+        }
+    },
+    {
+        "entity": "Entity46",
+        "current_time": "2023-11-11 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 35.82539150792365,
+            "latitude": 49.20925632967424
+        }
+    },
+    {
+        "entity": "Entity46",
+        "current_time": "2023-11-24 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 35.60095766190137,
+            "latitude": 48.9801241681137
+        }
+    },
+    {
+        "entity": "Entity46",
+        "current_time": "2023-12-07 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 35.43228506480355,
+            "latitude": 48.69088087386458
+        }
+    },
+    {
+        "entity": "Entity47",
+        "current_time": "2023-11-07 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 38.97050214767637,
+            "latitude": 51.473540081982314
+        }
+    },
+    {
+        "entity": "Entity47",
+        "current_time": "2023-11-20 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 39.503898851352275,
+            "latitude": 51.39755521164751
+        }
+    },
+    {
+        "entity": "Entity47",
+        "current_time": "2023-11-22 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 39.50531060263337,
+            "latitude": 51.389042030233604
+        }
+    },
+    {
+        "entity": "Entity47",
+        "current_time": "2023-11-24 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 39.4795400107377,
+            "latitude": 51.398393996597086
+        }
+    },
+    {
+        "entity": "Entity47",
+        "current_time": "2023-12-04 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 39.87897781617725,
+            "latitude": 51.27067783554548
+        }
+    },
+    {
+        "entity": "Entity47",
+        "current_time": "2023-12-07 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 39.816150148456956,
+            "latitude": 51.26997333235272
+        }
+    },
+    {
+        "entity": "Entity48",
+        "current_time": "2023-11-11 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 35.54860059761901,
+            "latitude": 51.557483793191075
+        }
+    },
+    {
+        "entity": "Entity48",
+        "current_time": "2023-11-30 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 35.26211266021328,
+            "latitude": 51.699673582986975
+        }
+    },
+    {
+        "entity": "Entity48",
+        "current_time": "2023-12-07 07:37:40",
+        "policy": "far_from_friend",
+        "original_location": {
+            "longitude": 35.18094097786881,
+            "latitude": 51.76737407889943
+        }
+    },
+    {
+        "entity": "Entity49",
+        "current_time": "2023-11-12 07:37:40",
+        "policy": "far_from_enemy",
+        "original_location": {
+            "longitude": 32.44052910751788,
+            "latitude": 49.822693915383084
+        }
+    },
+    {
+        "entity": "Entity49",
+        "current_time": "2023-11-20 07:37:40",
+        "policy": "far_from_enemy",
+        "original_location": {
+            "longitude": 32.58910580229494,
+            "latitude": 50.07689648004739
+        }
+    },
+    {
+        "entity": "Entity49",
+        "current_time": "2023-11-21 07:37:40",
+        "policy": "far_from_enemy",
+        "original_location": {
+            "longitude": 32.56781890337357,
+            "latitude": 50.02809273250102
+        }
+    },
+    {
+        "entity": "Entity49",
+        "current_time": "2023-11-25 07:37:40",
+        "policy": "far_from_enemy",
+        "original_location": {
+            "longitude": 32.649943177945644,
+            "latitude": 50.12265213468091
+        }
+    },
+    {
+        "entity": "Entity49",
+        "current_time": "2023-12-07 07:37:40",
+        "policy": "far_from_enemy",
+        "original_location": {
+            "longitude": 32.919772741039566,
+            "latitude": 50.69818825075915
+        }
+    },
+    {
+        "entity": "Entity5",
+        "current_time": "2023-11-25 07:37:40",
+        "policy": "near_friend",
+        "original_location": {
+            "longitude": 26.0829168553291,
+            "latitude": 45.32660896745163
+        }
+    },
+    {
+        "entity": "Entity5",
+        "current_time": "2023-12-04 07:37:40",
+        "policy": "near_friend",
+        "original_location": {
+            "longitude": 26.288416528391675,
+            "latitude": 45.39676210104956
+        }
+    },
+    {
+        "entity": "Entity6",
+        "current_time": "2023-11-07 07:37:40",
+        "policy": "near_friend",
+        "original_location": {
+            "longitude": 29.506896485200166,
+            "latitude": 45.080939789540636
+        }
+    },
+    {
+        "entity": "Entity6",
+        "current_time": "2023-11-09 07:37:40",
+        "policy": "near_friend",
+        "original_location": {
+            "longitude": 29.513592881810194,
+            "latitude": 45.0814497161064
+        }
+    },
+    {
+        "entity": "Entity6",
+        "current_time": "2023-11-13 07:37:40",
+        "policy": "near_friend",
+        "original_location": {
+            "longitude": 29.49588221436021,
+            "latitude": 45.09829428884976
+        }
+    },
+    {
+        "entity": "Entity6",
+        "current_time": "2023-11-16 07:37:40",
+        "policy": "near_friend",
+        "original_location": {
+            "longitude": 29.484364287741432,
+            "latitude": 45.09372223408281
+        }
+    },
+    {
+        "entity": "Entity6",
+        "current_time": "2023-12-07 07:37:40",
+        "policy": "near_friend",
+        "original_location": {
+            "longitude": 29.340840142813647,
+            "latitude": 45.17259331106841
+        }
+    },
+    {
+        "entity": "Entity7",
+        "current_time": "2023-11-07 07:37:40",
+        "policy": "near_enemy",
+        "original_location": {
+            "longitude": 30.815165811306237,
+            "latitude": 44.88648765827844
+        }
+    },
+    {
+        "entity": "Entity7",
+        "current_time": "2023-11-11 07:37:40",
+        "policy": "near_enemy",
+        "original_location": {
+            "longitude": 30.81578785678932,
+            "latitude": 44.92471675593214
+        }
+    },
+    {
+        "entity": "Entity7",
+        "current_time": "2023-11-16 07:37:40",
+        "policy": "near_enemy",
+        "original_location": {
+            "longitude": 30.877235168747685,
+            "latitude": 45.12887644472313
+        }
+    },
+    {
+        "entity": "Entity8",
+        "current_time": "2023-11-27 07:37:40",
+        "policy": "near_enemy",
+        "original_location": {
+            "longitude": 23.17326011069511,
+            "latitude": 45.83161671762071
+        }
+    },
+    {
+        "entity": "Entity8",
+        "current_time": "2023-12-03 07:37:40",
+        "policy": "near_enemy",
+        "original_location": {
+            "longitude": 23.25751410318537,
+            "latitude": 45.86860452804497
+        }
+    },
+    {
+        "entity": "Entity8",
+        "current_time": "2023-12-04 07:37:40",
+        "policy": "near_enemy",
+        "original_location": {
+            "longitude": 23.238658512938247,
+            "latitude": 45.852094033291905
+        }
+    },
+    {
+        "entity": "Entity9",
+        "current_time": "2023-11-15 07:37:40",
+        "policy": "near_friend",
+        "original_location": {
+            "longitude": 30.505904932810502,
+            "latitude": 44.732542575434564
+        }
+    },
+    {
+        "entity": "Entity9",
+        "current_time": "2023-11-30 07:37:40",
+        "policy": "near_friend",
+        "original_location": {
+            "longitude": 30.43375780459282,
+            "latitude": 44.90663877303264
+        }
+    }
+]

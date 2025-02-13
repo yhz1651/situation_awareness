@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}高光谱态势感知与监管平台{% endblock %}</title>
+    <style>
+         .header,.footer{height:40px;width:100%;margin:0 auto;background:#333;color:#f0f0f0;}
+         .header2{height:40px;width:100%;margin:0 auto;background:#000;color:#f0f0f0;}
+         .header table,.header2 table{list-style:none;display:inline;width:300px;margin:0px 20px;}
+         .container{height:700px;width:100%;border:1px solid #000;}
+         .footer{font-size:12px;text-align:center;height:20px;}
+   </style>
+</head>
+<body>
+  {% block header %}
+      <div class="header">   <!-- 头部区域的导航 -->
+           <table>
+               <tr>
+                   <td><a href="/ "><img src="{{ url_for('static',filename='img/index.png')}}" height="35px" alt=""></a></td>
+                   <td><a href="/situationModel"><img src="{{ url_for('static',filename='img/model.png')}}" height="35px" alt=""></a></td>
+                   <td><a href="/situationSupervision"><img src="{{ url_for('static',filename='img/supervision.png')}}" height="35px" alt=""></a></td>
+                   <td><a href="/situationCalculation"><img src="{{ url_for('static',filename='img/calculation.png')}}" height="35px" alt=""></a></td>
+                   <td><img src="{{ url_for('static',filename='img/blank.png')}}" height="35px" alt=""></td>
+                   <td><a href="/login"><img src="{{ url_for('static',filename='img/login.png')}}" height="35px" alt=""></a></td>
+                   <td><a href="/ "><img src="{{ url_for('static',filename='img/register.png')}}" height="35px" alt=""></a></td>
+               </tr>
+           </table>
+       </div>
+  {% endblock %}
+  {% block container %}
+      <div class="container">首页</div>
+  {% endblock %}
+  <!-- {% block footer %}
+      <div class="footer">made by fym</div>
+  {% endblock %} -->
+</body>
+</html>

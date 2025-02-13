@@ -1,0 +1,179 @@
+{% extends 'situation model.html' %}    <!-- 导入模板文件 -->
+{% block title %}态势导入{% endblock %}   <!-- 修改模板中的网页标题内容部分 -->
+{% block header %}
+<div class="header">   <!-- 头部区域的导航 -->
+     <table>
+         <tr>
+             <td><a href="/ "><img src="{{ url_for('static',filename='img/index.png')}}" height="35px" alt=""></a></td>
+             <td><a href="/situationModel"><img src="{{ url_for('static',filename='img/model2.png')}}" height="35px" alt=""></a></td>
+             <td><a href="/situationSupervision"><img src="{{ url_for('static',filename='img/supervision.png')}}" height="35px" alt=""></a></td>
+             <td><a href="/situationCalculation"><img src="{{ url_for('static',filename='img/calculation.png')}}" height="35px" alt=""></a></td>
+             <td><img src="{{ url_for('static',filename='img/blank.png')}}" height="35px" alt=""></td>
+             <td><a href="/login"><img src="{{ url_for('static',filename='img/login.png')}}" height="35px" alt=""></a></td>
+             <td><a href="/ "><img src="{{ url_for('static',filename='img/register.png')}}" height="35px" alt=""></a></td>
+         </tr>
+     </table>
+ </div>
+{% endblock %}
+
+{% block container %}
+<div class="container">
+    <div class="header2">
+            <table>
+                <tr>
+                        <td><img src="{{ url_for('static',filename='img/blank2.png')}}" height="35px" alt=""></td>
+                        <td><a href="/situationModel/situationImport"><img src="{{ url_for('static',filename='img/situation import.png')}}" height="35px" alt=""></a></td>
+                        <td><a href="/situationModel/situationManagement"><img src="{{ url_for('static',filename='img/situation management.png')}}" height="35px" alt=""></a></td>
+                        <td><a href="#"><img src="{{ url_for('static',filename='img/situation visualization.png')}}" height="35px" alt=""></a></td>
+                        <td><a href="/situationModel/autoInference"><img src="{{ url_for('static',filename='img/auto inference.png')}}" height="35px" alt=""></a></td>
+                </tr>
+            </table>
+    </div>
+    <div class="centered-container">
+        <style>
+            /* 样式代码 */
+
+            .centered-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: top;
+                height: 100vh;
+            }
+
+            .search-form {
+                margin-bottom: 20px;
+            }
+
+            .search-form label {
+                display: inline-block;
+                margin-right: 10px;
+            }
+
+            .search-form input[type="text"] {
+                width: 200px;
+                padding: 5px;
+            }
+
+            .search-form input[type="submit"] {
+                background-color: #337ab7;
+                color: #fff;
+                border: none;
+                padding: 5px 10px;
+                cursor: pointer;
+            }
+
+            table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+
+            th, td {
+                text-align: center;
+                padding: 10px;
+                border: 1px solid #ccc;
+            }
+
+            th {
+                background-color: #f1f1f1;
+            }
+        </style>
+
+        <div class="search-form">
+            <form action="#" method="get">
+                <label for="search-keywords">快速搜索：</label>
+                <input type="text" name="keywords" id="search-keywords">
+
+                <label for="search-1">搜索条件1：</label>
+                <input type="text" placeholder="条件1" name="condition1" id="search-1">
+
+                <label for="search-2">搜索条件2：</label>
+                <input type="text" placeholder="条件2" name="condition2" id="search-2">
+
+                <input type="submit" value="搜索">
+
+                <input type="submit" value="态势导入">
+            </form>
+            </form>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>序号</th>
+                    <th>态势名称</th>
+                    <th>态势类别</th>
+                    <th>导入时间</th>
+                    <th>态势描述</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>湖北陆战场态势1</td>
+                    <td>湖北陆战场态势</td>
+                    <td>2023-03-17 14:22:33</td>
+                    <td>湖北陆战场</td>
+                    <td>
+                        <div class="button-container">
+                            <input type="submit" value="自动推理">
+                            <input type="submit" value="可视化">
+                            <input type="submit" value="编辑">
+                            <input type="submit" value="删除">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>湖北陆战场态势2</td>
+                    <td>湖北陆战场态势</td>
+                    <td>2023-03-17 14:33:33</td>
+                    <td>湖北陆战场</td>
+                    <td>
+                        <div class="button-container">
+                            <input type="submit" value="自动推理">
+                            <input type="submit" value="可视化">
+                            <input type="submit" value="编辑">
+                            <input type="submit" value="删除">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>湖北陆战场态势3</td>
+                    <td>湖北陆战场态势</td>
+                    <td>2023-03-17 14:42:33</td>
+                    <td>湖北陆战场</td>
+                    <td>
+                        <div class="button-container">
+                            <input type="submit" value="自动推理">
+                            <input type="submit" value="可视化">
+                            <input type="submit" value="编辑">
+                            <input type="submit" value="删除">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>湖北陆战场态势4</td>
+                    <td>湖北陆战场态势</td>
+                    <td>2023-03-17 16:22:33</td>
+                    <td>湖北陆战场</td>
+                    <td>
+                        <div class="button-container">
+                            <input type="submit" value="自动推理">
+                            <input type="submit" value="可视化">
+                            <input type="submit" value="编辑">
+                            <input type="submit" value="删除">
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div id="pagination-info">
+            当前页：1 / 总页数：6 | 总记录数：57
+        </div>
+    </div>
+</div>
+{% endblock %}
